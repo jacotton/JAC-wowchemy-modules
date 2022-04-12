@@ -3,6 +3,11 @@
 {{ partial "page_header.html" . }}
 
 <div class="universal-wrapper">
+
+  <div class="row">
+  Testing. I have {{ len (where .Site.RegularPages "Section" "==" "publication") }} 
+  </div>
+
   <div class="row">
     <div class="col-lg-12">
 
